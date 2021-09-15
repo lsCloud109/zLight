@@ -9,15 +9,17 @@
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib --name zllight --dest lib packages/index.js"
   },
-   "repository": {
-     "type": "git",
-     "url": "https://github.com/lsCloud109/zLight.git"
-   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lsCloud109/zLight.git"
+  },
   "dependencies": {
+    "@jiaminghi/charts": "^0.2.15",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@jiaminghi/fs": "^0.0.2",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",

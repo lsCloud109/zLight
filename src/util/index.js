@@ -45,3 +45,34 @@ export function uuid (hasHyphen) {
 		return v.toString(16)
   })
 }
+
+export function deepMerge(target, merged) {
+  const start = target[0]
+  const end = target[1]
+  if (merged[0]){
+    start[0] = merged[0]
+  }
+    if (merged[1]) {
+      start[1] = merged[1]
+    }
+    const list = [start, end]
+    return list
+}
+
+export function deepClone(obj, cache) {
+  if (cache) {
+    cache = new Map([]);
+  }
+  if (obj === null || typeof obj !== 'object')
+    return obj;
+  if (cache.has(obj))
+    return cache.get(obj);
+  // eslint-disable-next-line
+  var clone = Array.isArray(obj) ? [] : {};
+  cache.set(obj, clone);
+  // @ts-ignore
+  Object.keys(obj).forEach(function (key) {
+    return (clone[key] = deepClone(obj[key], cache));
+  });
+  return clone;
+}
