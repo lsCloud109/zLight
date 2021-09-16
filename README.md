@@ -1,24 +1,24 @@
-# zlight
+## zlight是干什么的?
 
-## Project setup
-```
-yarn install
-```
+*zlight是一个基于**Vue**的数据可视化组件库
+* 提供用于提升页面视觉效果的**SVG**边框和装饰
+* 轮播表等其他组件
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+### npm安装
 
-### Compiles and minifies for production
-```
-yarn build
+```shell
+$ npm install zlight -S
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+### 使用
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```js
+import Vue from 'vue'
+import Zlight from 'zlight'
+
+Vue.use(Zlight)
+
+// 按需引入
+import { borderBox1 } from 'zlight'
+Vue.use(borderBox1)
+```
