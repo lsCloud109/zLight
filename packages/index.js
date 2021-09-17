@@ -13,6 +13,12 @@ import borderBox10 from './borderBox10'
 import borderBox11 from './borderBox11'
 import borderBox12 from './borderBox12'
 import borderBox13 from './borderBox13'
+import charts from './charts'
+import activeRingChart from './activeRingChart'
+import capsuleChart from './capsuleChart'
+import waterLevelPond from './waterLevelPond'
+import percentPond from './percentPond'
+import conicalColumnChart from './conicalColumnChart'
 import digitalFlop from './digitalFlop'
 import scrollBoard from './scrollBoard'
 import scrollRankingBoard from './scrollRankingBoard'
@@ -33,6 +39,12 @@ const components = [
   borderBox11,
   borderBox12,
   borderBox13,
+  charts,
+  activeRingChart,
+  capsuleChart,
+  waterLevelPond,
+  percentPond,
+  conicalColumnChart,
   digitalFlop,
   scrollBoard,
   scrollRankingBoard
@@ -69,6 +81,12 @@ export default {
   borderBox11,
   borderBox12,
   borderBox13,
+  charts,
+  activeRingChart,
+  capsuleChart,
+  waterLevelPond,
+  percentPond,
+  conicalColumnChart,
   digitalFlop,
   scrollBoard,
   scrollRankingBoard
