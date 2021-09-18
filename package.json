@@ -1,6 +1,6 @@
 {
   "name": "zlight",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "main": "packages/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",

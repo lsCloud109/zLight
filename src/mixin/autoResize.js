@@ -1,7 +1,7 @@
 import {
   debounce,
   observerDomResize
-} from '@/util'
+} from '../util/index'
 
 export default {
   data() {

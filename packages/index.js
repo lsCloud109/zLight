@@ -22,10 +22,26 @@ import conicalColumnChart from './conicalColumnChart'
 import digitalFlop from './digitalFlop'
 import scrollBoard from './scrollBoard'
 import scrollRankingBoard from './scrollRankingBoard'
+import fullScreenContainer from './fullScreenContainer'
+
+// decoration
+import decoration1 from './decoration1'
+import decoration2 from './decoration2'
+import decoration3 from './decoration3'
+import decoration4 from './decoration4'
+import decoration5 from './decoration5'
+import decoration6 from './decoration6'
+import decoration7 from './decoration7'
+import decoration8 from './decoration8'
+import decoration9 from './decoration9'
+import decoration10 from './decoration10'
+import decoration11 from './decoration11'
+import decoration12 from './decoration12'
 
 // 组件列表
 const components = [
   loading,
+  fullScreenContainer,
   borderBox1,
   borderBox2,
   borderBox3,
@@ -39,6 +55,18 @@ const components = [
   borderBox11,
   borderBox12,
   borderBox13,
+  decoration1,
+  decoration2,
+  decoration3,
+  decoration4,
+  decoration5,
+  decoration6,
+  decoration7,
+  decoration8,
+  decoration9,
+  decoration10,
+  decoration11,
+  decoration12,
   charts,
   activeRingChart,
   capsuleChart,
