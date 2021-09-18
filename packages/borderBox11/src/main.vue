@@ -215,8 +215,8 @@
 </template>
 
 <script>
-import autoResize from '@/mixin/autoResize'
-import { uuid } from '@/util/index'
+import autoResize from '../../../src/mixin/autoResize'
+import { uuid } from '../../../src/util/index'
 
 import { deepMerge } from '@jiaminghi/charts/lib/util/index'
 

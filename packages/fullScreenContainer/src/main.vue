@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import autoResize from '@/mixin/autoResize.js'
+import autoResize from '../../../src/mixin/autoResize.js'
 
 export default {
   name: 'zlFullScreenContainer',

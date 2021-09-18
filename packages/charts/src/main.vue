@@ -5,9 +5,9 @@
 </template>
 
 <script>
-import { uuid } from '@/util/index'
+import { uuid } from '../../../src/util/index'
 
-import autoResize from '@/mixin/autoResize'
+import autoResize from '../../../src/mixin/autoResize'
 
 import Charts from '@jiaminghi/charts'
 

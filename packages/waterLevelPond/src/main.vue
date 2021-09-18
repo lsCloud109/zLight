@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import { uuid } from '@/util/index'
+import { uuid } from '../../../src/util/index'
 
 import { deepMerge } from '@jiaminghi/charts/lib/util/index'
 

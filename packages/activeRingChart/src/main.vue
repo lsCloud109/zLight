@@ -275,7 +275,7 @@ export default {
 
       const { activeTimeGap } = option.series[0]
 
-      this.animationHandler = setTimeout(foo => {
+      this.animationHandler = setTimeout(() => {
         activeIndex += 1
 
         if (activeIndex >= data.length) activeIndex = 0

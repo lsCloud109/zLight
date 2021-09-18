@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import autoResize from '@/mixin/autoResize'
+import autoResize from '../../../src/mixin/autoResize'
 
 import { deepMerge } from '@jiaminghi/charts/lib/util/index'
 
