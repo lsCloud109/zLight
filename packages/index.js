@@ -96,6 +96,7 @@ export default {
   install,
   // 以下是具体的组件列表
   loading,
+  fullScreenContainer,
   borderBox1,
   borderBox2,
   borderBox3,
@@ -109,6 +110,18 @@ export default {
   borderBox11,
   borderBox12,
   borderBox13,
+  decoration1,
+  decoration2,
+  decoration3,
+  decoration4,
+  decoration5,
+  decoration6,
+  decoration7,
+  decoration8,
+  decoration9,
+  decoration10,
+  decoration11,
+  decoration12,
   charts,
   activeRingChart,
   capsuleChart,
@@ -117,5 +130,5 @@ export default {
   conicalColumnChart,
   digitalFlop,
   scrollBoard,
-  scrollRankingBoard
+  scrollRankingBoard,
 }
